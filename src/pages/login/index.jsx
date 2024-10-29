@@ -45,7 +45,7 @@ const Login = () => {
             </Column>
             <Column>
                 <Wrapper>
-                <TitleLogin>Faça seu cadastro</TitleLogin>
+                <TitleLogin>Faça seu Login</TitleLogin>
                 <SubtitleLogin>Faça seu login e make the change._</SubtitleLogin>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <Input placeholder="E-mail" leftIcon={<MdEmail />} name="email"  control={control} />
@@ -56,7 +56,9 @@ const Login = () => {
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
+                    <a href="/cadastro">
                     <CriarText>Criar Conta</CriarText>
+                    </a>
                 </Row>
                 </Wrapper>
             </Column>
